@@ -1,0 +1,10 @@
+.inputContainer {
+  select {
+    margin-top: 1em;
+    height: 3em;
+    box-sizing: content-box;
+    &.error {
+      border: 2px solid red;
+    }
+  }
+}

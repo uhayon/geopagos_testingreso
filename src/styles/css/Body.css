@@ -1,0 +1,18 @@
+body {
+  background-color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1199px) {
+  body #root {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body #root {
+    width: 75%;
+  }
+}
+
+/*# sourceMappingURL=Body.css.map */

@@ -1,0 +1,9 @@
+.appContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  .register-success {
+    width: fit-content;
+    align-self: center;
+  }
+}

@@ -1,0 +1,23 @@
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .inputContainer {
+    &.w-100 {
+      flex-basis: 100%;
+    }
+      &.w-65 {
+        flex-basis: 65%;
+      }
+    &.w-45 {
+      flex-basis: 45%;
+    }
+    &.w-30 {
+      flex-basis: 30%;
+    }
+    .errorMessage {
+      font-size: 0.75em;
+      color: red;
+    }
+  }
+}

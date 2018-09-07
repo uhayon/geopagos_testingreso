@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    color: $main-blue;
+  }
+
+  .steps {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+    .step {
+      width: 2em;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      border: 1px solid $step-green;
+      color: $step-green;
+      font-weight: bold;
+      border-radius: 2em;
+      &.active {
+        color: #fff;
+        background-color: $step-green;
+      }
+    }
+
+    hr {
+      width: 1em;
+      color: $step-green;
+      background: $step-green;
+      border-style: solid;
+    }
+  }
+}

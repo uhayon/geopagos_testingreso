@@ -1,0 +1,17 @@
+$break-small: 320px;
+$break-large: 1200px;
+
+body {
+  background-color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  #root {
+    @media screen and (max-width: $break-large - 1) {
+      width: 90%
+    }
+    @media screen and (min-width: $break-large) {
+      width: 75%;
+    }
+  }
+}

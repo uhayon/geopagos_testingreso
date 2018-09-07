@@ -1,0 +1,165 @@
+body {
+  background-color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1199px) {
+  body #root {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body #root {
+    width: 75%;
+  }
+}
+
+.appContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.appContainer .register-success {
+  width: fit-content;
+  align-self: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header h1 {
+  color: #0058cc;
+}
+.header .steps {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.header .steps .step {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  border: 1px solid #09d9ce;
+  color: #09d9ce;
+  font-weight: bold;
+  border-radius: 2em;
+}
+.header .steps .step.active {
+  color: #fff;
+  background-color: #09d9ce;
+}
+.header .steps hr {
+  width: 1em;
+  color: #09d9ce;
+  background: #09d9ce;
+  border-style: solid;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+.inputContainer.inputContainerRow {
+  flex-direction: row;
+}
+.inputContainer label {
+  color: #0058cc;
+}
+.inputContainer input:not([type=checkbox]) {
+  margin-top: 1em;
+  height: 3em;
+  box-sizing: border-box;
+}
+.inputContainer input:not([type=checkbox]):focus {
+  outline-color: #33beff;
+}
+.inputContainer input:not([type=checkbox]).error {
+  border: 2px solid red;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+.footer input[type=button] {
+  flex-basis: 35%;
+  line-height: 5em;
+  height: 5em;
+}
+
+.btn {
+  border-radius: 5px;
+  font-size: medium;
+  border-style: solid;
+  outline-color: transparent;
+}
+.btn:hover {
+  filter: brightness(70%);
+}
+.btn:active {
+  filter: brightness(85%);
+}
+.btn.btn-primary {
+  border-color: #0058cc;
+  background-color: #0058cc;
+  color: #fff;
+}
+.btn.btn-primary-inverse {
+  border-color: #0058cc;
+  background-color: #fff;
+  color: #0058cc;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-row .inputContainer.w-100 {
+  flex-basis: 100%;
+}
+.form-row .inputContainer.w-65 {
+  flex-basis: 65%;
+}
+.form-row .inputContainer.w-45 {
+  flex-basis: 45%;
+}
+.form-row .inputContainer.w-30 {
+  flex-basis: 30%;
+}
+.form-row .inputContainer .errorMessage {
+  font-size: 0.75em;
+  color: red;
+}
+
+.inputContainer select {
+  margin-top: 1em;
+  height: 3em;
+  box-sizing: content-box;
+}
+.inputContainer select.error {
+  border: 2px solid red;
+}
+
+.inputContainer .checkbox-label {
+  color: lightgray;
+}
+.inputContainer .checkbox {
+  -ms-transform: scale(2);
+  /* IE */
+  -moz-transform: scale(2);
+  /* FF */
+  -webkit-transform: scale(2);
+  /* Safari and Chrome */
+  -o-transform: scale(2);
+  /* Opera */
+  margin-right: 10px;
+  outline: none;
+}
+
+/*# sourceMappingURL=index.css.map */

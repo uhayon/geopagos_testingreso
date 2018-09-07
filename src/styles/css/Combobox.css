@@ -1,0 +1,10 @@
+.inputContainer select {
+  margin-top: 1em;
+  height: 3em;
+  box-sizing: content-box;
+}
+.inputContainer select.error {
+  border: 2px solid red;
+}
+
+/*# sourceMappingURL=Combobox.css.map */

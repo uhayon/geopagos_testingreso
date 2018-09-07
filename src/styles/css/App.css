@@ -1,0 +1,11 @@
+.appContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.appContainer .register-success {
+  width: fit-content;
+  align-self: center;
+}
+
+/*# sourceMappingURL=App.css.map */

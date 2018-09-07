@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+.footer input[type=button] {
+  flex-basis: 35%;
+  line-height: 5em;
+  height: 5em;
+}
+
+/*# sourceMappingURL=footer.css.map */

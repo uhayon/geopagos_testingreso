@@ -1,0 +1,22 @@
+.btn {
+  border-radius: 5px;
+  font-size: medium;
+  border-style: solid;
+  outline-color: transparent;
+  &:hover {
+    filter: brightness(70%);
+  }
+  &:active {
+    filter: brightness(85%);
+  }
+  &.btn-primary {
+    border-color: $main-blue;
+    background-color: $main-blue;
+    color: #fff;
+  }
+  &.btn-primary-inverse {
+    border-color: $main-blue;
+    background-color: #fff;
+    color: $main-blue;
+  }
+}

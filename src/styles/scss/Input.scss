@@ -1,0 +1,23 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  &.inputContainerRow {
+    flex-direction: row;
+  }
+
+  label {
+    color: $main-blue;
+  }
+  input:not([type=checkbox]) {
+    margin-top: 1em;
+    height: 3em;
+    box-sizing: border-box;
+    &:focus {
+      outline-color: $main-light-blue;
+    }
+    &.error {
+      border: 2px solid red;
+    }
+  }
+}
